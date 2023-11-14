@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class GradeCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int numSubjects = 6;
+        int numSubjects = 5;
         int totalMarks = 0;
         int[] marks = new int[numSubjects];
-        String[] subjects = {"Maths", "Science", "English", "History", "Geography", "Hindi"};
+        String[] subjects = {"Maths", "Science", "English", "Social Science" , "Hindi"};
         for (int i = 0; i < numSubjects; i++) {
             System.out.print("Enter marks obtained in " + subjects[i] + ": ");
             marks[i] = input.nextInt();
