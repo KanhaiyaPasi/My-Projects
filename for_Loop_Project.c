@@ -2,7 +2,6 @@
 
 int main() {
     int enteredPin;
-   // const int correctPin = 1234;
     int attempt = 0;
     const int maxAttempts = 3;
     float balance = 1000.0; // Initial balance
