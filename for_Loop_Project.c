@@ -6,7 +6,7 @@ int main() {
     const int maxAttempts = 3;
     float balance = 1000.0; // Initial balance
 
-   printf("Welcome To The ATM!\n");
+   printf("Welcome to the ATM!\n");
 
     // PIN entry loop
     while (attempt < maxAttempts) {
@@ -17,7 +17,7 @@ int main() {
             int option;
             do {
                 printf("\nATM Menu:\n");
-                printf("1. Enter PIN\n");
+                printf("1. Enter your PIN\n");
                 printf("2. Check Balance\n");
                 printf("3. Deposit\n");
                 printf("4. Withdraw\n");
