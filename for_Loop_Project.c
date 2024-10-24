@@ -30,7 +30,7 @@ int main() {
                         printf("You are already logged in.\n");
                         break;
                     case 2:
-                        printf("Your balance is: $%.2f\n", balance);
+                        printf("Your balance is: Rs.%.2f\n", balance);
                         break;
 
                     case 3: {
@@ -41,8 +41,8 @@ int main() {
                             printf("Invalid deposit amount. Please enter a positive value.\n");
                         } else {
                             balance += depositAmount;
-                            printf("You have deposited: $%.2f\n", depositAmount);
-                            printf("New balance: $%.2f\n", balance);
+                            printf("You have deposited: Rs.%.2f\n", depositAmount);
+                            printf("New balance: Rs.%.2f\n", balance);
                         }
                         break;
                     }
@@ -54,8 +54,8 @@ int main() {
                             printf("Insufficient funds.\n");
                         } else {
                             balance -= withdrawalAmount;
-                            printf("You have withdrawn: $%.2f\n", withdrawalAmount);
-                            printf("New balance: $%.2f\n", balance);
+                            printf("You have withdrawn: Rs.%.2f\n", withdrawalAmount);
+                            printf("New balance: Rs.%.2f\n", balance);
                         }
                         break;
                     }
